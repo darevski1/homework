@@ -39,19 +39,24 @@ From top main navigation click on plus icon and from dropdown menu chooese New R
 
 You can clone your repository to create a local copy on your computer and sync between the two locations.
 Open your repository.
-<br />
-
-**Click on Code button and copy the url**
-<br />
-
 ![Click on Code button and copy url](./assets/images/clone.jpg "github cloning")
 
-Open CMD || Terminal and type
+## Create a new repo from scratch and connect to github.
 
-    git clone https://github.com/username/repositoryname.git
+Open your terminal in desire location and create folder
 
-![](./assets/images/git_clone.jpg "github cloning")
+    mkdir sf-homework
+
+![create new folder](./assets/images/cmd_1.jpg "create folder")
 
     cd sf-homework
 
 ![](./assets/images/cmd_1.jpg "cd into")
+
+    cd sf-homework
+
+![](./assets/images/cmd_2.jpg "cd into")
+
+    cd sf-homework
+
+![](./assets/images/cmd_3.jpg "init")
