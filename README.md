@@ -6,4 +6,4 @@
 
 #### DevOps Lab 3 - Git & GitHub [View](https://github.com/darevski1/homework/tree/main/DevOps%20Lab%203%20-%20Git%20%26%20GitHub)
 
-#### DevOps Lab 4 - Python [View](https://github.com/darevski1/homework/tree/main/DevOps%20Lab%203%20-%20Git%20%26%20GitHub)
+#### DevOps Lab 4 - Python [View](https://github.com/darevski1/homework/tree/main/DevOps%20Lab%204%20-%20Python)
