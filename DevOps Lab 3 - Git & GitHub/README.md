@@ -12,12 +12,14 @@ Link to [GitHub ](https://git-scm.com/downloads)
 
 #### 1. Create repository in GitHub
 
-From top main navigation click on plus icon
+From top main navigation click on plus icon<br />
 ![Create new repository](./assets/images/add.jpg "Click on new repository")
 
 #### 2. Type repository name sf-homework
 
-![Create new repository](../assets/images/create_1.jpg "MarineGEO logo")
+<br />
+
+![Create new repository](./assets/images/create_1.jpg "MarineGEO logo")
 
 #### 3. Choose a repository visibility - Private or Public
 
@@ -28,5 +30,7 @@ From top main navigation click on plus icon
 #### 6. Choose a license \* optional or leave it as it is
 
 ### 7. Click CREATE REPOSITORY
+
+<br />
 
 ![](/assets/images/create_2.jpg "Created repository")
