@@ -41,4 +41,5 @@ You can clone your repository to create a local copy on your computer and sync b
 Open your repository.
 **Click on Code button and copy the url**
 <br />
+
 ![Click on Code button and copy url](./assets/images/clone.jpg "github cloning")
