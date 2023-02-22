@@ -12,7 +12,7 @@ Link to [GitHub ](https://git-scm.com/downloads)
 
 #### 1. Create repository in GitHub
 
-From top main navigation click on plus icon<br />
+From top main navigation click on plus icon and from dropdown menu chooese New Repository<br />
 ![Create new repository](./assets/images/add.jpg "Click on new repository")
 
 #### 2. Type repository name sf-homework
@@ -34,3 +34,10 @@ From top main navigation click on plus icon<br />
 <br />
 
 ![](/assets/images/create_2.jpg "Created repository")
+
+## Cloning
+
+You can clone your repository to create a local copy on your computer and sync between the two locations.
+Open your repository.
+
+![Click on Code button and copy url](./assets/images/clone.jpg "github cloning")

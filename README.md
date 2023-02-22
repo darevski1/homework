@@ -1,1 +1,7 @@
-# DevOps Homework
+# SF DevOps Academy Homework
+
+### DevOps Lab 1 - Creative thinking
+
+### DevOps Lab 1 - DevOps Lab 2 - Development lab using Azure DevTest Labs
+
+### DevOps Lab 1 - DevOps Lab 3 - Git & GitHub
