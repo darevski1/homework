@@ -58,7 +58,7 @@ Open your terminal in desire location and create folder
 ![](./assets/images/cmd_3.jpg "init")
 
     create README.md file
-    git add . too add all files in working directory or use ***git add file1 file2***
+    git add . too add all files in working directory or use git add file1 file2
     git commit -m "inital push" // write commit message
     git branch -M main
     git remote add origin https://github.com/username/sf-homework.git
