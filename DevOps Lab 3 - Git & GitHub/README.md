@@ -12,7 +12,8 @@ Link to [GitHub ](https://git-scm.com/downloads)
 
 #### 1. Create repository in GitHub
 
-From top main navigation click on plus icon ![Create new repository](./assets/images/add.jpg "Click on new repository")
+From top main navigation click on plus icon
+![Create new repository](./assets/images/add.jpg "Click on new repository")
 
 #### 2. Type repository name sf-homework
 
