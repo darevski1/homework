@@ -23,7 +23,7 @@ From top main navigation click on plus icon and from dropdown menu chooese New R
 
 #### 3. Choose a repository visibility - Private or Public
 
-#### 4. Add README.md file
+#### 4. Add README.md file \* optional or leave it as it is
 
 #### 5. Add .gitignore \* optional or leave it as it is
 
@@ -51,3 +51,7 @@ Open CMD || Terminal and type
     git clone https://github.com/username/repositoryname.git
 
 ![](./assets/images/git_clone.jpg "github cloning")
+
+    cd sf-homework
+
+![](./assets/images/cmd_1.jpg "cd into")
