@@ -51,8 +51,6 @@ Open your terminal in desire location and create folder
 
     cd sf-homework
 
-![](./assets/images/cmd_1.jpg "cd into")
-
 ![](./assets/images/cmd_2.jpg "cd into")
 
     git init
