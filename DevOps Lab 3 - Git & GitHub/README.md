@@ -45,3 +45,9 @@ Open your repository.
 <br />
 
 ![Click on Code button and copy url](./assets/images/clone.jpg "github cloning")
+
+Open CMD || Terminal and type
+
+    git clone https://github.com/username/repositoryname.git
+
+![](./assets/images/git_clone.jpg "github cloning")
