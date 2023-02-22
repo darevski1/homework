@@ -39,5 +39,6 @@ From top main navigation click on plus icon and from dropdown menu chooese New R
 
 You can clone your repository to create a local copy on your computer and sync between the two locations.
 Open your repository.
-**_Click on Code button and copy url_**
+**Click on Code button and copy the url**
+<br />
 ![Click on Code button and copy url](./assets/images/clone.jpg "github cloning")
