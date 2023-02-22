@@ -71,7 +71,9 @@ Open your terminal in desire location and create folder
 ### Basic git commands
 
 $ **git config --global user.name** youname
+
 <br />
+
 Setup an username
 
 ---
