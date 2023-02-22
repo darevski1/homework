@@ -53,10 +53,8 @@ Open your terminal in desire location and create folder
 
 ![](./assets/images/cmd_1.jpg "cd into")
 
-    cd sf-homework
-
 ![](./assets/images/cmd_2.jpg "cd into")
 
-    cd sf-homework
+    git init
 
 ![](./assets/images/cmd_3.jpg "init")
