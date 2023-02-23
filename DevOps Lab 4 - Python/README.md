@@ -1,3 +1,3 @@
 ## SF DevOps Academy Homework - Python
 
-Installation
+Calculator script
