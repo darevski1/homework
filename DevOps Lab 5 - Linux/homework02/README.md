@@ -98,10 +98,29 @@ ___
 
 
 
-![](images/10-1.png)
+    ![](images/10-1.png)
 
-![](images/10-2.png)
+    ![](images/10-2.png)
 
-![](images/10-3.png)
+    ![](images/10-3.png)
 
+
+## Exercise 08
+### Check how many bytes are taken up by the file.  
+
+    $ ls -l cars.txt | awk '{print $5}'
+ 
+    
+
+    ![](images/12.png)
+ 
+ 
+## Exercise 09
+### Copy the file cars.txt into directory /tmp  
+
+    $ cp cars.txt /tmp/
+ 
+    
+
+    ![](images/12.png)
  
