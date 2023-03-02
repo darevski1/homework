@@ -145,7 +145,7 @@
 ###  Without leaving your home directory rename file cars.txt located in /tmp to vehicles.txt in /tmp 
 
  
-            $ sudo mv /tmp/cars.txt vehicles.txt
+            $ mv /tmp/cars.txt /tmp/vehnicles.txt
              
 
 ![Change file name](images/15.png)
