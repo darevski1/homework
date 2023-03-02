@@ -39,7 +39,7 @@ Create a file friends.txt with a list of names of three of your friends on separ
  * To change the of the use command mv
  
  	
-        $ sudo mv friends.txt  bestfriends.txt 
+        $ mv friends.txt  bestfriends.txt 
 
  
 ![Rename friends.txt  to bestfriends.txt ](images/6.png)
@@ -52,7 +52,7 @@ Create a file friends.txt with a list of names of three of your friends on separ
  * Copy bestfriends.txt sysadmins.txt using cp command
  
  	
-        $ sudo cp bestfriends.txt sysadmins.txt
+        $ cp bestfriends.txt sysadmins.txt
 
  
 ![Rename friends.txt  to bestfriends.txt ](images/7.png)
