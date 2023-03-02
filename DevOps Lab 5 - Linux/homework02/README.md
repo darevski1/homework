@@ -1,7 +1,7 @@
 
 # Exercise: Basic Linux & Bash commands 
 
-### Exercise 01
+## Exercise 01
 
 Create a file friends.txt with a list of names of three of your friends on separate lines. 
 
@@ -23,7 +23,7 @@ Create a file friends.txt with a list of names of three of your friends on separ
 
 ![Open friends.txt ](images/3.png)
 
-### Exercise 02
+## Exercise 02
 #### Display the contents of friends.txt on the console. 
 
 		$ cat friends.txt
@@ -33,7 +33,7 @@ Create a file friends.txt with a list of names of three of your friends on separ
 ![Open friends.txt ](images/5.png)
 
 
-### Exercise 03 
+## Exercise 03 
 ##### Rename file friends.txt to bestfriends.txt 
 
  * To change the of the use command mv
@@ -46,7 +46,7 @@ Create a file friends.txt with a list of names of three of your friends on separ
 
  
 
-### Exercise 04 
+## Exercise 04 
 ##### Make a copy of bestfriends.txt under the name sysadmins.txt
 
  * Copy bestfriends.txt sysadmins.txt using cp command
@@ -57,13 +57,13 @@ Create a file friends.txt with a list of names of three of your friends on separ
  
 ![Rename friends.txt  to bestfriends.txt ](images/7.png)
 
-### Exercise 05
+## Exercise 05
 
 #### List all files whose name begins with letter 'b' and ends with extension txt. 
 ?
 
  
-### Exercise 06
+## Exercise 06
 
 #####  Write a command that will tell you how many bytes are taken up by file sysadmins.txt 
 
@@ -83,7 +83,7 @@ Create a file friends.txt with a list of names of three of your friends on separ
 ___
 
 
-### Exercise 07
+## Exercise 07
 #### Create file cars.txt with a list of 5 brands of cars on separate lines. 
 
     $ touch cars.txt
