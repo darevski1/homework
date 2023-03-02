@@ -58,4 +58,25 @@ Create a file friends.txt with a list of names of three of your friends on separ
 ![Rename friends.txt  to bestfriends.txt ](images/7.png)
 
 
+
+ 
+### Exercise 07
+
+#####  Write a command that will tell you how many bytes are taken up by file sysadmins.txt 
+
+* we can check the file using commands 
+ 
+ 		     -l filename | awk '{print $5}'
+            stat -c %s filename
+            wc -c < filename
+
+
+![Rename friends.txt  to bestfriends.txt ](images/9-1.png)
+
+![Rename friends.txt  to bestfriends.txt ](images/9-2.png)
+
+![Rename friends.txt  to bestfriends.txt ](images/9-3.png)
+
+
+
  
