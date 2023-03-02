@@ -7,7 +7,7 @@ Create a file friends.txt with a list of names of three of your friends on separ
 
 * Lets create new file using nano - text editor, open Terminal and type:
 
-        $ sudo nano friends.txt
+        $ nano friends.txt
 ![Open terminal](images/01.png)
 
 * Alternativy you can create new file using touch command
@@ -19,7 +19,7 @@ Create a file friends.txt with a list of names of three of your friends on separ
 
 * Open the document in text editor and save using ctrl + x and select y
 
-		$ sudo nano friends.txt
+		$ nano friends.txt
 
 ![Open friends.txt ](images/3.png)
 
