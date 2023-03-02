@@ -122,7 +122,7 @@
 ###  Copy the file cars.txt into directory /tmp. 
 
  
-            $ p cars.txt /tmp/
+            $ cars.txt /tmp/
              
 
 ![Check file size ](images/13.png)
