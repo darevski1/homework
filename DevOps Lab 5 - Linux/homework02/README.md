@@ -24,11 +24,25 @@ Create a file friends.txt with a list of names of three of your friends on separ
 ![Open friends.txt ](images/3.png)
 
 ### Exercise 02
-Display the contents of friends.txt on the console. 
+#### Display the contents of friends.txt on the console. 
 
 		$ cat friends.txt
 
 ![Open friends.txt ](images/4.png)
 
 ![Open friends.txt ](images/5.png)
+
+
+### Exercise 03 
+##### Rename file friends.txt to bestfriends.txt 
+
+ * To change the of the use command mv
+ 
+ 	
+    $ sudo mv friends.txt  bestfriends.txt 
+
+ 
+![Rename friends.txt  to bestfriends.txt ](images/6.png)
+
+ 
    
