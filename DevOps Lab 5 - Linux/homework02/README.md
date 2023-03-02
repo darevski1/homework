@@ -3,7 +3,7 @@
 
 ## Exercise 01
 
-Create a file friends.txt with a list of names of three of your friends on separate lines. 
+### Create a file friends.txt with a list of names of three of your friends on separate lines. 
 
 * Lets create new file using nano - text editor, open Terminal and type:
 
@@ -24,7 +24,7 @@ Create a file friends.txt with a list of names of three of your friends on separ
 ![Open friends.txt ](images/3.png)
 
 ## Exercise 02
-#### Display the contents of friends.txt on the console. 
+### Display the contents of friends.txt on the console. 
 
 		$ cat friends.txt
 
@@ -34,7 +34,7 @@ Create a file friends.txt with a list of names of three of your friends on separ
 
 
 ## Exercise 03 
-##### Rename file friends.txt to bestfriends.txt 
+#### Rename file friends.txt to bestfriends.txt 
 
  * To change the of the use command mv
  
@@ -47,7 +47,7 @@ Create a file friends.txt with a list of names of three of your friends on separ
  
 
 ## Exercise 04 
-##### Make a copy of bestfriends.txt under the name sysadmins.txt
+#### Make a copy of bestfriends.txt under the name sysadmins.txt
 
  * Copy bestfriends.txt sysadmins.txt using cp command
  
@@ -59,7 +59,7 @@ Create a file friends.txt with a list of names of three of your friends on separ
 
 ## Exercise 05
 
-#### List all files whose name begins with letter 'b' and ends with extension txt. 
+### List all files whose name begins with letter 'b' and ends with extension txt. 
 
     $ ls | grep ^b
 
@@ -68,7 +68,7 @@ Create a file friends.txt with a list of names of three of your friends on separ
 
 ## Exercise 06
 
-#####  Write a command that will tell you how many bytes are taken up by file sysadmins.txt 
+###  Write a command that will tell you how many bytes are taken up by file sysadmins.txt 
 
 * we can check the file size using commands 
  
@@ -90,10 +90,10 @@ ___
 
 
 ## Exercise 07
-#### Create file cars.txt with a list of 5 brands of cars on separate lines. 
+### Create file cars.txt with a list of 5 brands of cars on separate lines. 
 
     $ touch cars.txt
-    $ sudo nano cars.txt
+    $ nano cars.txt
     
 
 
