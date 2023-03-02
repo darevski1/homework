@@ -85,42 +85,45 @@
 ![Rename friends.txt  to bestfriends.txt ](images/9-1.png)
 
 
-
-___
-
-
 ## Exercise 07
-### Create file cars.txt with a list of 5 brands of cars on separate lines. 
 
-    $ touch cars.txt
-    $ nano cars.txt
-    
+###  Create file cars.txt with a list of 5 brands of cars on separate lines. 
+
+* Open terminal and type
+ 
+            nano cars.txt
+            touch cars.txt
 
 
 
-    ![](images/10-1.png)
+![Rename friends.txt  to bestfriends.txt ](images/10-1.png)
 
-    ![](images/10-2.png)
+![Rename friends.txt  to bestfriends.txt ](images/10-2.png)
 
-    ![](images/10-3.png)
+![Rename friends.txt  to bestfriends.txt ](images/10-3.png)
+
 
 
 ## Exercise 08
-### Check how many bytes are taken up by the file.  
 
-    $ ls -l cars.txt | awk '{print $5}'
- 
-    
+###  Check how many bytes are taken up by the file. 
 
-    ![](images/12.png)
+* Open terminal and type
  
- 
-## Exercise 09
-### Copy the file cars.txt into directory /tmp  
+            $ ls -l cars.txt | awk '{print $5}'
+             
 
-    $ cp cars.txt /tmp/
- 
-    
+![Check file size ](images/12.png)
 
-    ![](images/12.png)
+ 
+ 
+ ## Exercise 09
+
+###  Copy the file cars.txt into directory /tmp. 
+
+ 
+            $ p cars.txt /tmp/
+             
+
+![Check file size ](images/13.png)
  
