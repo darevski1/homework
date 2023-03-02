@@ -34,7 +34,7 @@
 
 
 ## Exercise 03 
-#### Rename file friends.txt to bestfriends.txt 
+### Rename file friends.txt to bestfriends.txt 
 
  * To change the of the use command mv
  
@@ -47,7 +47,7 @@
  
 
 ## Exercise 04 
-#### Make a copy of bestfriends.txt under the name sysadmins.txt
+### Make a copy of bestfriends.txt under the name sysadmins.txt
 
  * Copy bestfriends.txt sysadmins.txt using cp command
  
