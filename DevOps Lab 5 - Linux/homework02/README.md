@@ -74,11 +74,14 @@ Create a file friends.txt with a list of names of three of your friends on separ
             wc -c < filename
 
 
-![Rename friends.txt  to bestfriends.txt ](images/9-1.png)
 
 ![Rename friends.txt  to bestfriends.txt ](images/9-2.png)
 
 ![Rename friends.txt  to bestfriends.txt ](images/9-3.png)
+
+![Rename friends.txt  to bestfriends.txt ](images/9-1.png)
+
+
 
 ___
 
