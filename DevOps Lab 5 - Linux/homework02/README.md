@@ -127,3 +127,39 @@
 
 ![Check file size ](images/13.png)
  
+
+  ## Exercise 10
+
+###  List all files with extension *.txt in directory /tmp and verify that the file was copied properly. 
+
+ 
+            $ sudo find /tmp -type f -name "*.txt"
+             
+
+![Find all files with extension *.txt ](images/14.png)
+
+
+
+  ## Exercise 11
+
+###  Without leaving your home directory rename file cars.txt located in /tmp to vehicles.txt in /tmp 
+
+ 
+            $ sudo mv /tmp/cars.txt vehicles.txt
+             
+
+![Change file name](images/15.png)
+ 
+
+ ## Exercise 12
+
+###  Display the contents of /etc/passwd file on the screen interactively (so you can search, scroll up and down) 
+
+ 
+            $ less /etc/passwd
+             
+
+![less man page ](images/16.png)
+![less man page ](images/17.png)
+
+ 
