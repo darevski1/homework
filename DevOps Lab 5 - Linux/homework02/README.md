@@ -57,14 +57,17 @@ Create a file friends.txt with a list of names of three of your friends on separ
  
 ![Rename friends.txt  to bestfriends.txt ](images/7.png)
 
+### Exercise 05
 
+#### List all files whose name begins with letter 'b' and ends with extension txt. 
+?
 
  
-### Exercise 07
+### Exercise 06
 
 #####  Write a command that will tell you how many bytes are taken up by file sysadmins.txt 
 
-* we can check the file using commands 
+* we can check the file size using commands 
  
  		     -l filename | awk '{print $5}'
             stat -c %s filename
@@ -77,6 +80,22 @@ Create a file friends.txt with a list of names of three of your friends on separ
 
 ![Rename friends.txt  to bestfriends.txt ](images/9-3.png)
 
+___
 
+
+### Exercise 07
+#### Create file cars.txt with a list of 5 brands of cars on separate lines. 
+
+    $ touch cars.txt
+    $ sudo nano cars.txt
+    
+
+
+
+![](images/10-1.png)
+
+![](images/10-2.png)
+
+![](images/10-3.png)
 
  
