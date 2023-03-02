@@ -60,16 +60,19 @@ Create a file friends.txt with a list of names of three of your friends on separ
 ## Exercise 05
 
 #### List all files whose name begins with letter 'b' and ends with extension txt. 
-?
 
- 
+    $ ls | grep ^b
+
+
+ ![](images/11.png)
+
 ## Exercise 06
 
 #####  Write a command that will tell you how many bytes are taken up by file sysadmins.txt 
 
 * we can check the file size using commands 
  
- 		     -l filename | awk '{print $5}'
+ 		    ls -l filename | awk '{print $5}'
             stat -c %s filename
             wc -c < filename
 
