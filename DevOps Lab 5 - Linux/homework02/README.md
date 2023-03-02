@@ -22,4 +22,13 @@ Create a file friends.txt with a list of names of three of your friends on separ
 		$ sudo nano friends.txt
 
 ![Open friends.txt ](images/3.png)
+
+### Exercise 02
+Display the contents of friends.txt on the console. 
+
+		$ cat friends.txt
+
+![Open friends.txt ](images/4.png)
+
+![Open friends.txt ](images/5.png)
    
