@@ -13,3 +13,5 @@ Create a file friends.txt with a list of names of three of your friends on separ
 * Alternativy you can create new file using touch command
 
 		$ touch friends.txt
+
+![Open terminal](images/2.png)
