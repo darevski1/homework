@@ -10,5 +10,4 @@
 
 #### DevOps Lab 5 - Linux [View](https://github.com/darevski1/homework/tree/main/DevOps%20Lab%205%20-%20Linux/homework02)
 
-
 #### DevOps Lab 6 - Bash Scripting/[View](https://github.com/darevski1/homework/tree/main/DevOps%20Lab%206%20-%20Bash%20Scripting)
