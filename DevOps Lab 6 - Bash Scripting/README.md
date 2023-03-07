@@ -50,24 +50,9 @@
     echo "Hi, my name is" $name $lastname "i live in " $city
 
 
-# Use arguments in a script. Total number of arguments should be three. 
-
-    echo "HI, enter your name"
-    read name
-
-    echo "Enter your lastname"
-    read lastname
-
-    echo "City name"
-    read city
-
-    echo "Hi, my name is" $name $lastname "i live in " $city
-
-
 #### 6. Write a script that till output your name out of a variable and will display the server uptime 
 
     echo "My name is " $USER
-    uptime
-
+    echo "Server its running for:"  uptime
 
 
