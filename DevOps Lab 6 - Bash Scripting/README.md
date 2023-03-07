@@ -38,6 +38,17 @@
 #### 5. Use arguments in a script.  Total number of arguments should be three.  
 
     #!/bin/bash
+    echo "HI, enter your name"
+    read name
+
+    echo "Enter your lastname"
+    read lastname
+
+    echo "City name"
+    read city
+
+    echo "Hi, my name is" $name $lastname "i live in " $city
+
 
 # Use arguments in a script. Total number of arguments should be three. 
 
