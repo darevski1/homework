@@ -44,7 +44,6 @@
  
 ![Rename friends.txt  to bestfriends.txt ](images/6.png)
 
- 
 
 ## Exercise 04 
 ### Make a copy of bestfriends.txt under the name sysadmins.txt
@@ -77,13 +76,11 @@
             wc -c < filename
 
 
-
 ![Rename friends.txt  to bestfriends.txt ](images/9-2.png)
 
 ![Rename friends.txt  to bestfriends.txt ](images/9-3.png)
 
 ![Rename friends.txt  to bestfriends.txt ](images/9-1.png)
-
 
 ## Exercise 07
 
@@ -95,13 +92,11 @@
             touch cars.txt
 
 
-
 ![Rename friends.txt  to bestfriends.txt ](images/10-1.png)
 
 ![Rename friends.txt  to bestfriends.txt ](images/10-2.png)
 
 ![Rename friends.txt  to bestfriends.txt ](images/10-3.png)
-
 
 
 ## Exercise 08
@@ -153,9 +148,8 @@
 
  ## Exercise 12
 
-###  Display the contents of /etc/passwd file on the screen interactively (so you can search, scroll up and down) 
+###  Display the contents of /etc/passwd file on the screen interactively (so you can search, scroll up and down). 
 
- 
             $ less /etc/passwd
              
 
