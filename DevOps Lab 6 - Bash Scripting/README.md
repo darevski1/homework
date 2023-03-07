@@ -1,12 +1,28 @@
 ## SF DevOps Academy Homework - Exercise: Shell scripts 
 
 #### 1. Write a shell script to get the current date, time, username and current working directory. 
-    #!/bin/bash
+    #! /bin/bash
 
-    getdate=$(date +'%d/%m/%Y)
+
+    # Get current date
+
+    getdate=$(date +'%d/%m/%Y')
     gettime=$(date +'%T')
 
-    echo "The current date is " $getdate " and current time is" $gettime
+    echo "The current date is " $getdate " and the time is" $gettime
+
+
+    # Get the current login user
+
+    echo "The current user that is logged in is:" $USER  
+
+
+    #get current working directory
+
+    echo "The current working directory is:" 
+    pwd
+
+
 
 #### 2. Write a shell script that prints “I love learning about DevOps” on the screen. Message should be a variable.  
     #!/bin/bash
@@ -58,5 +74,5 @@
 #### 6. Write a script that till output your name out of a variable and will display the server uptime 
     #!/bin/bash 
 
-    echo "My name is " $USER
+    echo "My name is" $USER
     echo "Server its running for:"  uptime
