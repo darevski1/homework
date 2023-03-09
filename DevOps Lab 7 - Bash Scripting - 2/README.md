@@ -11,11 +11,20 @@
 
 #### Test if you can log in using that user; 
 
+    works!!!
 
 #### Using grep command check if the user is created; 
 
+    gred darko /etc/passwd
+
+
+![Change file name](images/1.png)
 
 #### grep the UID of each user; 
+
+    id
+![Change file name](images/2.png)
+
 
 
 #### Find out the GID of the created user; 
