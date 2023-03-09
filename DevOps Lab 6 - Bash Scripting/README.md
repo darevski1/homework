@@ -1,26 +1,26 @@
 ## SF DevOps Academy Homework - Exercise: Shell scripts 
 
 #### 1. Write a shell script to get the current date, time, username and current working directory. 
-    #! /bin/bash
+        #! /bin/bash
 
 
-    # Get current date
+        # Get current date
 
-    getdate=$(date +'%d/%m/%Y')
-    gettime=$(date +'%T')
+        getdate=$(date +'%d/%m/%Y')
+        gettime=$(date +'%T')
 
-    echo "The current date is " $getdate " and the time is" $gettime
-
-
-    # Get the current login user
-
-    echo "The current user that is logged in is:" $USER  
+        echo "The current date is " $getdate " and the time is" $gettime
 
 
-    #get current working directory
+        # Get the current login user
 
-    echo "The current working directory is:" 
-    pwd
+        echo "The current user that is logged in is:" $USER  
+
+
+        #get current working directory
+
+        echo "The current working directory is:" 
+        pwd
 
 
 
