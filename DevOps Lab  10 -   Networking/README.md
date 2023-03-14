@@ -22,6 +22,15 @@
 
 
 * **Use the route command and paste the output from the routing table on your system:** 
+
+      **ip route**  <br />
+
+      default via 192.168. 100.1 dev enp2s0 proto static metric 100  <br />
+      default via 192.168.1.1 dev wlp0s20f3 proto dhcp metric 600   <br />
+      169.254.0.0/16 dev wlp0s20f3 scope link metric 1000   <br />
+      192.168.1.0/24 dev wlp0s20f3 proto kernel scope link src 192.168.1.2 metric 600   <br />
+      192.168.100.0/24 dev enp2s0 proto kernel scope link src 192.168.100.33 metric 100  <br />
+
 * **Use the traceroute command on your system and observe the hops to Google’s DNS, 8.8.8.8** 
   
   - traceroot is command line 
