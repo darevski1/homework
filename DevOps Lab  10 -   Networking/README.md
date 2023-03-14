@@ -26,7 +26,8 @@
   
   - traceroot is command line 
  0 
-**traceroute 8.8.8.8**
+**traceroute 8.8.8.8** <br />
+
        traceroute to 8.8.8.8 (8.8.8.8), 30 hops max, 60 byte packets
     1  192.168.100.1 (192.168.100.1)  1.097 ms  1.012 ms  0.960 ms
     2  192.168.22.137 (192.168.22.137)  4.066 ms  4.105 ms  4.790 ms
