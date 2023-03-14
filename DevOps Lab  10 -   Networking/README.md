@@ -99,3 +99,20 @@
 
 
   </pre>
+
+* **Exercise 3 – Traffic analysis and identifying the OSI layers of the network packets** 
+
+    Prerequisite: Search online and get familiar with the TCP’s three-way handshake. Learn how to capture the three way handshake using Wireshark. Install Wireshark on your computer and use it to capture traffic against a website or a server or your choice. It is recommended that you capture traffic against a simple website.  Name and the IP address of the website you plan to capture traffic: 
+
+  <pre>
+    Analyze the TCP’s three-way handshake and using screenshots from the Wireshark window answer the questions bellow: 
+    
+    1.What is the source IP (of the initiating host): 192.168.100.33
+    2.What is the destination IP? (target website): 20.199.120.182
+  </pre>
+
+  Identify the Network Interface (Layer 1 & 2) section of the SYN packet and paste a screenshot from it: 
+
+  ![Layer 1](./assets/images/1.jpg "MarineGEO logo")
+  
+  ![Layer 2](./assets/images/2jpg "MarineGEO logo")
