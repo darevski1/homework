@@ -113,6 +113,6 @@
 
   Identify the Network Interface (Layer 1 & 2) section of the SYN packet and paste a screenshot from it: 
 
-    ![Layer 1](images/images/1.png "")
+    ![Layer 1](images/images/1.png)
     
-    ![Layer 2](images/images/2.png "")
+    ![Layer 2](images/images/2.png)
