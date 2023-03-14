@@ -56,5 +56,23 @@
       9  dns.google (8.8.8.8)  8.011 ms  7.957 ms  7.904 ms  
   </pre>
 
+* **Why would you need to use the ping command?** 
+  
+    Answer:
 
- 
+    ping command is used to check connectivity betwen two hosts. 
+
+  <pre>
+
+      ds@ds-HP-ProBook-440-G6:~$ ping 8.8.8.8
+      PING 8.8.8.8 (8.8.8.8) 56(84) bytes of data.
+      64 bytes from 8.8.8.8: icmp_seq=1 ttl=116 time=7.82 ms
+      64 bytes from 8.8.8.8: icmp_seq=2 ttl=116 time=8.13 ms
+      64 bytes from 8.8.8.8: icmp_seq=3 ttl=116 time=7.75 ms
+      64 bytes from 8.8.8.8: icmp_seq=4 ttl=116 time=7.76 ms
+      64 bytes from 8.8.8.8: icmp_seq=5 ttl=116 time=7.72 ms
+      64 bytes from 8.8.8.8: icmp_seq=6 ttl=116 time=7.79 ms
+      64 bytes from 8.8.8.8: icmp_seq=7 ttl=116 time=7.49 ms
+
+  
+  </pre>
