@@ -130,3 +130,16 @@
 
 ![Layer 2](./assets/images/2.png "layer")
 
+
+Identify the Network Layer 3 section of the SYN/ACK packet and paste a screenshot from it:  
+
+![Layer 1](./assets/images/6.png "layer")
+
+
+Identify the Transport Layer 4 section of the ACK packet and paste a screenshot from it bellow: 
+![Layer 1](./assets/images/1.png "layer")
+
+
+Look closely at the L2 section of the three-way handshake packet details. Each of them shows the source and destination MAC address of the packets.  Who is the owner of the destination MAC address of the SYN packet?
+
+User
