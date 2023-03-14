@@ -113,6 +113,6 @@
 
   Identify the Network Interface (Layer 1 & 2) section of the SYN packet and paste a screenshot from it: 
 
-  ![Layer 1](./assets/images/1.png "MarineGEO logo")
-  
-  ![Layer 2](./assets/images/2.png "MarineGEO logo")
+    ![Layer 1](./assets/images/1.png "MarineGEO logo")
+    
+    ![Layer 2](./assets/images/2.png "MarineGEO logo")
