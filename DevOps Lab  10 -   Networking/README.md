@@ -7,18 +7,18 @@
 
     ds@ds-HP-ProBook-440-G6:~$ arp -a
 
-    [^1]:  ? (192.168.100.236) at 00:21:b7:2f:bf:4f [ether] on enp2s0
-    [^1]:  ? (192.168.100.149) at 00:21:b7:7e:d1:11 [ether] on enp2s0
-    [^1]:  ? (192.168.100.137) at 00:21:b7:d5:f2:e1 [ether] on enp2s0
-    [^1]:  ? (192.168.100.141) at 00:21:b7:d5:f2:b1 [ether] on enp2s0
-    [^1]:  70-100-168-192.dsl1-erie.roc.ny.frontiernet.net (192.168.100.70) at 58:20:b1:4e:bc:23 [ether] on enp2s0
-    [^1]:  ? (192.168.100.231) at e0:70:ea:f9:2c:10 [ether] on enp2s0
-    [^1]:  node-81s.pool-1-1.dynamic.totinternet.net (192.168.1.1) at 00:1f:33:28:81:80 [ether] on wlp0s20f3
-    [^1]:  ? (192.168.100.147) at 00:21:b7:e5:37:ce [ether] on enp2s0
-    [^1]:  ? (192.168.100.1) at 04:76:b0:26:5a:74 [ether] on enp2s0
-    [^1]:  nothing.attdns.com (192.168.100.135) at e0:70:ea:f9:2c:5a [ether] on enp2s0
-    [^1]:  ? [^1]:  (192.168.100.44) at e0:70:ea:f9:2c:b4 [ether] on enp2s0
-    [^1]:  ETH-240-ML3471ND.kultur.uni-hamburg.de (192.168.100.134) at 00:21:b7:d5:f6:c6 [ether] on enp2s0
+    ? (192.168.100.236) at 00:21:b7:2f:bf:4f [ether] on enp2s0 <br />
+    ? (192.168.100.149) at 00:21:b7:7e:d1:11 [ether] on enp2s0 <br />
+    ? (192.168.100.137) at 00:21:b7:d5:f2:e1 [ether] on enp2s0 <br />
+    ? (192.168.100.141) at 00:21:b7:d5:f2:b1 [ether] on enp2s0 <br />
+    70-100-168-192.dsl1-erie.roc.ny.frontiernet.net (192.168.100.70) at 58:20:b1:4e:bc:23 [ether] on enp2s0 <br />
+    ? (192.168.100.231) at e0:70:ea:f9:2c:10 [ether] on enp2s0 <br />
+    node-81s.pool-1-1.dynamic.totinternet.net (192.168.1.1) at 00:1f:33:28:81:80 [ether] on wlp0s20f3 <br />
+    ? (192.168.100.147) at 00:21:b7:e5:37:ce [ether] on enp2s0 <br />
+    ? (192.168.100.1) at 04:76:b0:26:5a:74 [ether] on enp2s0 <br />
+    nothing.attdns.com (192.168.100.135) at e0:70:ea:f9:2c:5a [ether] on enp2s0 <br />
+    ? (192.168.100.44) at e0:70:ea:f9:2c:b4 [ether] on enp2s0 <br />
+    ETH-240-ML3471ND.kultur.uni-hamburg.de (192.168.100.134) at 00:21:b7:d5:f6:c6 [ether] on enp2s0 <br />
 
 
 * **Use the route command and paste the output from the routing table on your system:** 
