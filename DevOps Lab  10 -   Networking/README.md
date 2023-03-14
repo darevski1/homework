@@ -5,7 +5,7 @@
   
   arp  - stands for Address resolution protocol is used to resolve ip address to to MAC addresess. MAC address is physical address of a device. Whenever a device needs to comunicate with another device on a local area network it needs MAC address for that device. arp stores MAC addreses in his local cache ARP cache. ARP Table is used to keep the record of the IP address and MAC address of the devices source and destination device for the communication between two devices
 
-    ds@ds-HP-ProBook-440-G6:~$ arp -a
+    **ds@ds-HP-ProBook-440-G6:~$ arp -a**
 
     ? (192.168.100.236) at 00:21:b7:2f:bf:4f [ether] on enp2s0 <br />
     ? (192.168.100.149) at 00:21:b7:7e:d1:11 [ether] on enp2s0 <br />
