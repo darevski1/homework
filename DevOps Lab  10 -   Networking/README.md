@@ -1,7 +1,7 @@
 #### Exercise 1 – Basic network stuff
 
 
-* Easy Use the arp command and paste the output from the arp table on your system:
+* **Easy Use the arp command and paste the output from the arp table on your system:**
   
   arp  - stands for Address resolution protocol is used to resolve ip address to to MAC addresess. MAC address is physical address of a device. Whenever a device needs to comunicate with another device on a local area network it needs MAC address for that device. arp stores MAC addreses in his local cache ARP cache. ARP Table is used to keep the record of the IP address and MAC address of the devices source and destination device for the communication between two devices
 
@@ -21,6 +21,6 @@
     ETH-240-ML3471ND.kultur.uni-hamburg.de (192.168.100.134) at 00:21:b7:d5:f6:c6 [ether] on enp2s0
 
 
-* Use the route command and paste the output from the routing table on your system: 
-* Use the traceroute command on your system and observe the hops to Google’s DNS, 8.8.8.8. 
-* Paste the full output from the command bellow showing all the hops from your system to 8.8.8.8. 
+* **Use the route command and paste the output from the routing table on your system:** 
+* **Use the traceroute command on your system and observe the hops to Google’s DNS, 8.8.8.8** 
+* **Paste the full output from the command bellow showing all the hops from your system to 8.8.8.8** 
