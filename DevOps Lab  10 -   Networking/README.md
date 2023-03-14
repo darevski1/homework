@@ -104,8 +104,19 @@
 
     Prerequisite: Search online and get familiar with the TCP’s three-way handshake. Learn how to capture the three way handshake using Wireshark. Install Wireshark on your computer and use it to capture traffic against a website or a server or your choice. It is recommended that you capture traffic against a simple website.  Name and the IP address of the website you plan to capture traffic: 
 
-  <pre>
     Analyze the TCP’s three-way handshake and using screenshots from the Wireshark window answer the questions bellow: 
+
+   
+    ![](./assets/images/3.png "layer")
+        
+
+    ![](./assets/images/4.png "layer")
+
+    
+    ![](./assets/images/5.png "layer")
+
+
+  <pre>
     
     1.What is the source IP (of the initiating host): 192.168.100.33
     2.What is the destination IP? (target website): 20.199.120.182
