@@ -34,7 +34,7 @@
 * **Use the traceroute command on your system and observe the hops to Google’s DNS, 8.8.8.8** 
   
   - traceroot is command line  <br />
- 0 
+ 
 **traceroute 8.8.8.8** <br />
 
        traceroute to 8.8.8.8 (8.8.8.8), 30 hops max, 60 byte packets  <br />
