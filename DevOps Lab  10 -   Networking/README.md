@@ -76,3 +76,26 @@
 
   
   </pre>
+
+* **Write down the TCP/UDP ports of the most commonly used services bellow in the form of TCP[PORT] or UDP[PORT].  As an example, the first two answers have been filled in:** 
+
+  <pre>
+
+    * HTTP – TCP80 
+    * SNMP – UDP161 
+    * HTTPS  443 port
+    * DNS client - DNS uses port 53
+    * DNS zone transfer - use TCP port 53
+    * SMTP 
+    * SSH -os using 22
+    * FTP - os using 21
+    * Telnet - 23 or 2323
+    * MSSQL - 1433
+    * MySQL - 3306
+    * PostreSQL - 5432
+    * RDP (Remote Desktop Protocol) - 3389
+    * NTP  port 123 is used for NTP server communication and NTP clients use port 1023
+    * NFS - 2049
+
+
+  </pre>
