@@ -36,7 +36,7 @@
     
   </pre>
 
-* **Use the traceroute command on your system and observe the hops to Google’s DNS, 8.8.8.8** 
+* **Use the traceroute command on your system and observe the hops to Google’s DNS, 8.8.8.8. Paste the full output from the command bellow showing all the hops from your system to 8.8.8.8.** 
   
   - traceroot is command line  <br />
  
@@ -57,5 +57,4 @@
   </pre>
 
 
-
-* **Paste the full output from the command bellow showing all the hops from your system to 8.8.8.8** 
+ 
