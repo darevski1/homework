@@ -25,7 +25,7 @@
 
 * **Use the route command and paste the output from the routing table on your system:** 
 
-      **ip route**  <br />
+      **ip route**
     <pre>
 
       default via 192.168. 100.1 dev enp2s0 proto static metric 100 
@@ -193,3 +193,10 @@ Identify the Transport Layer 4 section of the ACK packet and paste a screenshot 
 
 
 Look closely at the L2 section of the three-way handshake packet details. Each of them shows the source and destination MAC address of the packets.  Who is the owner of the destination MAC address of the SYN packet?
+
+
+### Exercise 4 – Hacking mockup (for Bonus points) 
+
+Use Wireshark to capture the packet’s application layer data and discover the implications of using unencrypted communication over a network. It is recommended that you use your own Linux Virtual Machine on your system on which you need to confiture a telnet server. From your own system try to login with a Telnet on the target VM all while capturing the traffic with a Wireshark. As a proof of competition for this exercise paste in bellow a screenshot of the application layer data containing visible username and password. 
+
+![WireShark sniff](./assets/images/net.png "")
