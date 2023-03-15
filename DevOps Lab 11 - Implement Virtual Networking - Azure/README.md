@@ -1,9 +1,12 @@
 ## SF DevOps Academy Homework - Implement Virtual Networking
 
-![Vm1 - rdp](./assets/images/Image-1.png "layer")
 
-![VM1 -rdp ](./assets/images/Image-2.png "layer")
+![Vm1 - rdp](./images/Image-1.png "x")
 
-![PowerShel](./assets/images/Image.png "layer")
+
+![VM1 -rdp ](./images/Image-2.png "x")
+
+
+![PowerShel](./images/Image.png "x")
 
  
