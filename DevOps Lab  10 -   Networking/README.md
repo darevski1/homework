@@ -126,3 +126,70 @@ Similarly, and vice versa, what can we expect to see as destination ports when t
   •	SRC PORT:	80 / 443
   •	DST PORT:	
 
+
+
+=======
+* **Write down the TCP/UDP ports of the most commonly used services bellow in the form of TCP[PORT] or UDP[PORT].  As an example, the first two answers have been filled in:** 
+
+  <pre>
+
+    * HTTP – TCP80 
+    * SNMP – UDP161 
+    * HTTPS  443 port
+    * DNS client - DNS uses port 53
+    * DNS zone transfer - use TCP port 53
+    * SMTP 
+    * SSH -os using 22
+    * FTP - os using 21
+    * Telnet - 23 or 2323
+    * MSSQL - 1433
+    * MySQL - 3306
+    * PostreSQL - 5432
+    * RDP (Remote Desktop Protocol) - 3389
+    * NTP  port 123 is used for NTP server communication and NTP clients use port 1023
+    * NFS - 2049
+
+
+  </pre>
+
+* **Exercise 3 – Traffic analysis and identifying the OSI layers of the network packets** 
+
+    Prerequisite: Search online and get familiar with the TCP’s three-way handshake. Learn how to capture the three way handshake using Wireshark. Install Wireshark on your computer and use it to capture traffic against a website or a server or your choice. It is recommended that you capture traffic against a simple website.  Name and the IP address of the website you plan to capture traffic: 
+
+    Analyze the TCP’s three-way handshake and using screenshots from the Wireshark window answer the questions bellow: 
+
+   
+    ![](./assets/images/3.png "layer")
+        
+
+    ![](./assets/images/4.png "layer")
+
+    
+    ![](./assets/images/5.png "layer")
+
+
+  <pre>
+    
+    1.What is the source IP (of the initiating host): 192.168.100.33
+    2.What is the destination IP? (target website): 20.199.120.182
+  </pre>
+
+  Identify the Network Interface (Layer 1 & 2) section of the SYN packet and paste a screenshot from it: 
+
+   
+![Layer 1](./assets/images/1.png "layer")
+    
+
+![Layer 2](./assets/images/2.png "layer")
+
+
+Identify the Network Layer 3 section of the SYN/ACK packet and paste a screenshot from it:  
+
+![Layer 1](./assets/images/6.png "layer")
+
+
+Identify the Transport Layer 4 section of the ACK packet and paste a screenshot from it bellow: 
+![Layer 1](./assets/images/1.png "layer")
+
+
+Look closely at the L2 section of the three-way handshake packet details. Each of them shows the source and destination MAC address of the packets.  Who is the owner of the destination MAC address of the SYN packet?
