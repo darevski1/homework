@@ -10,11 +10,15 @@ In this lab,
      <li>Task 6: Implement Azure Application Gateway</li>
 </ul>
 
+![Open powershell ](images/diagram.png)
+
 
 
 Login to portal.azure. Open powershell and upload two files ![Open powershell ](images/powershell.png)
 
-**\Allfiles\Labs\06\az104-06-vms-loop-template.json**
+File 1: **\Allfiles\Labs\06\az104-06-vms-loop-template.json**
  <br />
- 
-**\Allfiles\Labs\06\az104-06-vms-loop-template.json**
+
+File 2: **\Allfiles\Labs\06\az104-06-vms-loop-template.json**
+
+![Open powershell ](images/upload.png)
