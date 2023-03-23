@@ -47,7 +47,7 @@ After we upload the scripts, we have to edit the login credentials.
 
 ### Task 2: Configure the hub and spoke network topology
 
-From the search bar type Virtual networks. Select **az104-06-vnet2** / Properties from left side menu . **az104-06-vnet3**. and copy **Resource ID**
+From the search bar type Virtual networks. Select **az104-06-vnet2** / Properties from left side menu .  and copy **Resource ID** also for **az104-06-vnet3**.
 
 ![Open powershell ](images/res.png)
 
