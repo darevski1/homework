@@ -74,3 +74,13 @@ Navigate back to Virtual Machines and select  **az104-06-vm0** and click **Overv
 ![Open powershell ](images/psh2.png)
 
 ![Open powershell ](images/psh3.png)
+
+Now we have to create route tables
+
+![Open powershell ](images/route.png)
+Click got to resources
+![Open powershell ](images/12332.png)
+Now we have to add Routes 
+![Open powershell ](images/route2.png)
+Create subnet
+![Open powershell ](images/subnet.png)
