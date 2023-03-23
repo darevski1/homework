@@ -52,7 +52,10 @@ From the search bar type Virtual networks. Select **az104-06-vnet2** / Propertie
 ![Open powershell ](images/res.png)
 
 
-Select **az104-06-vnet01** 
+Select **az104-06-vnet01**  and from left side menu select **Peerings** than click Add new 
 ![Open powershell ](images/net2.png)
 
-from left side menu select **Peerings** than click Add new
+
+
+
+![Open powershell ](images/net3.png)
