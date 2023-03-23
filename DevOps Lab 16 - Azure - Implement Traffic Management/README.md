@@ -14,7 +14,7 @@ In this lab,
 
 
 
-Login to portal.azure. Open powershell and upload two files ![Open powershell ](images/powershell.png)
+#### Login to portal.azure. Open powershell and upload two files ![Open powershell ](images/powershell.png)
 
 File 1: **\Allfiles\Labs\06\az104-06-vms-loop-template.json**
  <br />
@@ -27,9 +27,13 @@ After we upload the scripts, we have to edit the login credentials.
 
 ![Open powershell ](images/editpwd.png)
 
-From the powershell run this command to create three virtual networks and four Azure VMs from files we uploaded.
+#### From the powershell run this command to create three virtual networks and four Azure VMs from files we uploaded.
 
     New-AzResourceGroupDeployment `
     -ResourceGroupName $rgName `
     -TemplateFile $HOME/az104-06-vms-loop-template.json `
     -TemplateParameterFile $HOME/az104-06-vms-loop-parameters.json
+
+#### Success!!! We created new VM
+
+![Open powershell ](images/vms.png)
