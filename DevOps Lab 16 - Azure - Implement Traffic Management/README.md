@@ -37,3 +37,10 @@ After we upload the scripts, we have to edit the login credentials.
 #### Success!!! We created new VM
 
 ![Open powershell ](images/vms.png)
+
+### Now we have to create Network Watcher extension on the Azure, for the vm we created in previous step. Run this command in powershell
+#### Success!!! We created new network watche for every VM
+![Open powershell ](images/networkwatcher.png)
+
+
+
