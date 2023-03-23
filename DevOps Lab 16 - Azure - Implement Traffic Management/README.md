@@ -27,4 +27,4 @@ After we upload the scripts, we have to edit the login credentials.
 
 ![Open powershell ](images/editpwd.png)
 
-
+From the powershell run this command to create three virtual networks and four Azure VMs from files we uploaded.
