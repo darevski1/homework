@@ -13,6 +13,7 @@ In this lab,
 ![Open powershell ](images/diagram.png)
 
 
+### Task 1: Provision the lab environment
 
 #### Login to portal.azure. Open powershell and upload two files ![Open powershell ](images/powershell.png)
 
@@ -44,3 +45,7 @@ After we upload the scripts, we have to edit the login credentials.
 
 
 
+### Task 2: Configure the hub and spoke network topology
+
+From the search bar type Virtual networks, and chooes **az104-06-vnet01** from left side menu select **Peerings** than click Add new
+![Open powershell ](images/net1.png)
