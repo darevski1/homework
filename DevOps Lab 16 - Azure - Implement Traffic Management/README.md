@@ -22,3 +22,9 @@ File 1: **\Allfiles\Labs\06\az104-06-vms-loop-template.json**
 File 2: **\Allfiles\Labs\06\az104-06-vms-loop-template.json**
 
 ![Open powershell ](images/upload.png)
+
+After we upload the scripts, we have to edit the login credentials.
+
+![Open powershell ](images/editpwd.png)
+
+
