@@ -84,3 +84,10 @@ Now we have to add Routes
 ![Open powershell ](images/route2.png)
 Create subnet
 ![Open powershell ](images/subnet.png)
+Navigate back to Route tables blade and click + Create.
+![Open powershell ](images/routetables.png)
+
+### Task 5: Implement Azure Load Balancer
+
+Open  Load balancers click create 
+![Open powershell ](images/load.png)
