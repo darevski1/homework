@@ -58,4 +58,4 @@ Select **az104-06-vnet01**  and from left side menu select **Peerings** than cli
 
 
 
-![Open powershell ](images/net3.png)
+![Open powershell ](images/nat3.png)
