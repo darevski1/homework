@@ -47,11 +47,12 @@ After we upload the scripts, we have to edit the login credentials.
 
 ### Task 2: Configure the hub and spoke network topology
 
-Copy Resource ID from az104-06-vnet2 az104-06-vnet3.
+From the search bar type Virtual networks. Select **az104-06-vnet2** / Properties from left side menu . **az104-06-vnet3**. and copy **Resource ID**
+
 ![Open powershell ](images/res.png)
 
 
-From the search bar type Virtual networks, and chooes **az104-06-vnet01** 
+Select **az104-06-vnet01** 
 ![Open powershell ](images/net2.png)
 
 from left side menu select **Peerings** than click Add new
