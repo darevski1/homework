@@ -59,3 +59,13 @@ Select **az104-06-vnet01**  and from left side menu select **Peerings** than cli
 
 
 ![Open powershell ](images/nat3.png)
+
+### Repeat this proces for az104-06-vnet3
+
+
+### Task 4: Configure routing in the hub and spoke topology
+
+We have to enable **IP forwading** on VM **az104-06-vm0** we have to go in Virtual Machines/az104-06-vm0/Network Interface: az104-06-nic0 enable **IP forwading** and click Save
+
+
+![Open powershell ](images/enable01.png)
