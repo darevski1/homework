@@ -72,3 +72,5 @@ We have to enable **IP forwading** on VM **az104-06-vm0** we have to go in Virtu
 
 Navigate back to Virtual Machines and select  **az104-06-vm0** and click **Overview** and **Run command** and select **RunPowerShellScript.**
 ![Open powershell ](images/psh2.png)
+
+![Open powershell ](images/psh3.png)
