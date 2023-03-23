@@ -14,5 +14,5 @@ In this lab,
 
 Login to portal.azure. Open powershell and upload two files ![Open powershell ](images/powershell.png)
 
-**\Allfiles\Labs\06\az104-06-vms-loop-template.json**
+**\Allfiles\Labs\06\az104-06-vms-loop-template.json** <br />
 **\Allfiles\Labs\06\az104-06-vms-loop-template.json**
