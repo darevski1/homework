@@ -68,6 +68,31 @@ On the **az104-05-vnet0** virtual network blade, in the Settings section, click 
 ![Open powershell ](images/a6.png)
 
     This step establishes two local peerings - one from az104-05-vnet0 to az104-05-vnet1 and the other from az104-05-vnet1 to az104-05-vnet0.
-    
+
 ![Open powershell ](images/a7.png)
 
+#### Repeat this step with virtual networka - az104-05-vnet2
+
+Next open VM **az104-05-vm0** and connect with RDP
+
+![Open powershell ](images/a8.png)
+
+Open powershell run the following to test connectivity to az104-05-vm1
+
+    Test-NetConnection -ComputerName 10.51.0.4 -Port 3389 -InformationLevel 'Detailed'
+
+![Open powershell ](images/a9.png)
+
+
+In the Windows PowerShell console window, run the following to test connectivity to az104-05-vm2 
+
+    Test-NetConnection -ComputerName 10.52.0.4 -Port 3389 -InformationLevel 'Detailed'
+
+![Open powershell ](images/a10.png)
+
+
+#### Switch back to the Azure portal on your lab computer and navigate back to the Virtual machines blade.
+In the list of virtual machines, click az104-05-vm1. and connect via RDP  and open PowerShell as admin, run the command to test connectivity to **az104-05-vm2** (which has the private IP address of 10.52.0.4) over TCP port 3389:
+
+
+![Open powershell ](images/a11.png)
