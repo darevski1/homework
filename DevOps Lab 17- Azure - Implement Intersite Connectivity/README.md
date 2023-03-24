@@ -59,3 +59,5 @@ After deployment has finished we have to configure local and global virtual netw
 In the list of virtual networks, click **az104-05-vnet0.**
 
 ![Open powershell ](images/a4.png)
+![Open powershell ](images/a5.png)
+![Open powershell ](images/a6.png)
