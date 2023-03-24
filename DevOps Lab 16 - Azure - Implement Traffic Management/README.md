@@ -96,4 +96,26 @@ Open  Load balancers click create
 
 In the Azure portal, search and select Virtual networks. On the Virtual networks blade, in the list of virtual networks, click az104-06-vnet01.
 
-![Open powershell ](images/333.png)
+![Open powershell ](images/333.png)1
+
+
+From the powershell run this commands to create new location and resource group
+
+
+        $location1 = 'eastus'
+
+        $location2 = 'westus'
+
+        $rgName = 'az104-05-rg1'
+
+        New-AzResourceGroup -Name $rgName -Location $location1
+
+
+Then we have to create three virtual networks and deploy VM into then by using templates, run this command in powershell
+
+         New-AzResourceGroupDeployment `
+        -ResourceGroupName $rgName `
+        -TemplateFile $HOME/az104-05-vnetvm-loop-template.json `
+        -TemplateParameterFile $HOME/az104-05-vnetvm-loop-parameters.json `
+        -location1 $location1 `
+        -location2 $location2
