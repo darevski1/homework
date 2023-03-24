@@ -50,3 +50,12 @@ Then we have to create three virtual networks and deploy VM into then by using t
         -TemplateParameterFile $HOME/az104-05-vnetvm-loop-parameters.json `
         -location1 $location1 `
         -location2 $location2
+
+
+After deployment has finished we have to configure local and global virtual network peering
+
+![Open powershell ](images/a3.png)
+
+In the list of virtual networks, click **az104-05-vnet0.**
+
+![Open powershell ](images/a4.png)
