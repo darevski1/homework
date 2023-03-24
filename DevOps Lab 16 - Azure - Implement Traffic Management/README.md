@@ -91,3 +91,9 @@ Navigate back to Route tables blade and click + Create.
 
 Open  Load balancers click create 
 ![Open powershell ](images/load.png)
+
+### Task 6: Implement Azure Application Gateway
+
+In the Azure portal, search and select Virtual networks. On the Virtual networks blade, in the list of virtual networks, click az104-06-vnet01.
+
+![Open powershell ](images/333.png)
