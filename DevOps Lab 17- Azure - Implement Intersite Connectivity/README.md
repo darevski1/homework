@@ -9,3 +9,13 @@
 </ul>
 
 ![Open powershell ](images/a1.png)
+
+In the Azure portal, open the Azure Cloud Shell
+
+Using powershell upload teo files
+**az104-05-vnetvm-loop-template.json**
+**az104-05-vnetvm-loop-parameters.json**
+![Open powershell ](images/a2.png)
+
+In the powershell type **code .** and vscode will be open in powershell terminal. Edit password, type secure password **az104-05-vnetvm-loop-parameters.json** and save the file.
+
