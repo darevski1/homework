@@ -59,5 +59,7 @@ After deployment has finished we have to configure local and global virtual netw
 In the list of virtual networks, click **az104-05-vnet0.**
 
 ![Open powershell ](images/a4.png)
+On the **az104-05-vnet0** virtual network blade, in the Settings section, click **Peerings** and then click **+ Add.**
 ![Open powershell ](images/a5.png)
+
 ![Open powershell ](images/a6.png)
