@@ -62,4 +62,7 @@ In the list of virtual networks, click **az104-05-vnet0.**
 On the **az104-05-vnet0** virtual network blade, in the Settings section, click **Peerings** and then click **+ Add.**
 ![Open powershell ](images/a5.png)
 
+    This step establishes two local peerings - one from az104-05-vnet0 to az104-05-vnet1 and the other from az104-05-vnet1 to az104-05-vnet0.
+
 ![Open powershell ](images/a6.png)
+
