@@ -9,5 +9,8 @@
      <li> Task 6: Configure and test autoscaling of the Azure web app </li>
 </ul>
 
+
+![Open powershell ](images/Screenshot_1.png)
+
  
  
