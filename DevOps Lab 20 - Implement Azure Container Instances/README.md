@@ -14,4 +14,5 @@ Task 2: Review the functionality of the Azure Container Instance
 
 Task 1: Deploy a Docker image by using the Azure Container Instance
 
-![](/images/Screenshot_2.png "")
+ 
+![Open powershell ](images/Screenshot_2.png)
