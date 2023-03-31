@@ -91,6 +91,60 @@ Click on the button Add an IP address space, and new window we apear on the righ
 ![Create a storage ](images/a4.png) 
 
 Now Select Add subnet and create new subnet for our virtual network. And click **Review and create + Create**
+
 ![Create a storage ](images/a6.png) 
+
+Your deployment is complete
+
+![Create a storage ](images/a7.png) 
+
+
+### Next Step: Modify the network security group for your virtual machine that will allow you to remotely manage your machine only from your local machine and nowhere else.
+
+
+### Create a Linux Virtual Machine that will be your Web Server which is publicly available for web publishing (not SSL) only from your machine and nowhere else.
+
+Navigate to **Virtual machine** > **Create a virtual machine** and click a new virtual machine
+
+
+Create ne virtual machine and login choeoes secuity group 
+
+![Create a storage ](images/b5.png) 
+install apache web server
+
+    sudo apt update
+    sudo apt install apache2
+
+
+![Create a storage ](images/b4.png) 
+
+
+Appache is working on port 80
+![Create a storage ](images/b6.png) 
+
+
+    cd /var/wwww
+    sudo mkdir hello_world
+    cd /var/www/hello_world
+    nano index.html
+
+
+    <html>
+        <head>
+        <title> Ubuntu rocks! </title>
+        </head>
+        <body>
+        <p> Hello World </p>
+        </body>
+    </html>
+
+
+![Create a storage ](images/b7.png) 
+![Create a storage ](images/fn.png) 
+
+
+
+
+
 
 
