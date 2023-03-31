@@ -10,7 +10,17 @@ World website to Azure Storage.
 
 
 
-Login to your account in azure.portal navigate to  **Create a storage ** > **Create a storage account** 
-then click Create storage account
+Login to your account in azure.portal navigate to  **Create a storage** > **Create a storage account** 
+then click **Create storage account**
 
 ![Create a storage ](images/01.png) 
+
+Fill required detailes **Project details** and **Instance details** and click **Create**
+
+![Create a storage ](images/1.png) 
+
+![Create a storage ](images/2.png) 
+
+
+
+
