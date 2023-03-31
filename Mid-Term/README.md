@@ -141,7 +141,7 @@ Appache is working on port 80
 
 
 ![Create a storage ](images/b7.png) 
-![Create a storage ](images/fn.png) 
+![Create a storage ](images/fn.jpg) 
 
 
 
