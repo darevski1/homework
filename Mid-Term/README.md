@@ -19,7 +19,18 @@ Fill required detailes **Project details** and **Instance details** and click **
 
 ![Create a storage ](images/1.png) 
 
+Open you storage that you created
 ![Create a storage ](images/2.png) 
+
+From the left side menu select **Data management/Static website**
+
+![Create a storage ](images/3.png) 
+
+On toggle button click **Enable Static website** and fill **Index document name**  ***index.html*** and click on the Save button
+
+![Create a storage ](images/4.png) 
+
+
 
 
 
