@@ -12,4 +12,5 @@ World website to Azure Storage.
 
 Login to your account in azure.portal navigate to  **Create a storage ** > **Create a storage account** 
 then click Create storage account
-![Open powershell ](images/01.png) 
+
+![Create a storage ](images/01.png) 
