@@ -48,4 +48,46 @@ Verify that the static web page is working.
 
 
 
+## Part II
+
+In this exercise we will setup a Linux based web server and will
+deploy a web page on it.
+1. Create a Virtual Network where you will deploy your Linux Based
+Web Server.
+2. Modify the network security group for your virtual machine that will
+allow you to remotely manage your machine only from your local
+machine and nowhere else.
+3. Create a Linux Virtual Machine that will be your Web Server which is
+publicly available for web publishing (not SSL) only from your
+machine and nowhere else.
+4. Connect to the VM.
+5. Install Apache Web Server.
+6. Deploy the “Hello World” web page.
+7. Provide Testing from your cellphone.
+8. Provide the steps and results.
+
+
+Login to your account, in the search bar type **Virtual networks** open virtual network and click create new virtual network
+
+![Create a storage ](images/a1.png) 
+
+on the next screen fill required fields
+
+* Subscription: Choes Subscription
+* Resource group: Select resource group or create new one
+Instance details
+* Virtual network name: Type virtual netwotk name
+* Region: Select Region
+
+![Create a storage ](images/a2.png) 
+
+Click next Secuirty tab will apear click Next **IP addresses** delete default address space that already appears.
+
+![Create a storage ](images/a3.png) 
+
+
+Click on the button Add an IP address space, and new window we apear on the right side on the screen and fill the address space for new Ip addres
+
+![Create a storage ](images/a5.png) 
+
 
