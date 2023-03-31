@@ -107,9 +107,10 @@ Your deployment is complete
 Navigate to **Virtual machine** > **Create a virtual machine** and click a new virtual machine
 
 
-Create ne virtual machine and login choeoes secuity group 
+Create new virtual machine and  Connect to the VM.
 
-![Create a storage ](images/b5.png) 
+![Create a storage ](images/c11.png) 
+
 install apache web server
 
     sudo apt update
