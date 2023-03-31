@@ -90,4 +90,7 @@ Click on the button Add an IP address space, and new window we apear on the righ
 
 ![Create a storage ](images/a4.png) 
 
+Now Select Add subnet and create new subnet for our virtual network. And click **Review and create + Create**
+![Create a storage ](images/a6.png) 
+
 
