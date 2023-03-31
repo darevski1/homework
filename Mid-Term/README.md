@@ -67,7 +67,7 @@ machine and nowhere else.
 8. Provide the steps and results.
 
 
-Login to your account, in the search bar type **Virtual networks** open virtual network and click create new virtual network
+Login to your account, in the search bar type **Virtual networks** open virtual network and click create new virtual network now we are going to create new virtual network
 
 ![Create a storage ](images/a1.png) 
 
@@ -86,8 +86,8 @@ Click next Secuirty tab will apear click Next **IP addresses** delete default ad
 ![Create a storage ](images/a3.png) 
 
 
-Click on the button Add an IP address space, and new window we apear on the right side on the screen and fill the address space for new Ip addres
+Click on the button Add an IP address space, and new window we apear on the right side on the screen and fill the address space for new Ip address
 
-![Create a storage ](images/a5.png) 
+![Create a storage ](images/a4.png) 
 
 
