@@ -30,7 +30,21 @@ On toggle button click **Enable Static website** and fill **Index document name*
 
 ![Create a storage ](images/4.png) 
 
+After we Successfully we creted the static page we can click on **$web** to upload new file 
 
+![Create a storage ](images/5.png) 
+
+On the next screen click **upload** and new popup windows from the right side will apear select the file that we created  ***index.html*** and click upload 
+
+![Create a storage ](images/6.png) 
+
+Navigate back to Static website select storage account / static website from the left side menu and copy **Primary endpoint**
+
+![Create a storage ](images/7.png) 
+
+Verify that the static web page is working.
+
+![Create a storage ](images/8.png) 
 
 
 
