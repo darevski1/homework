@@ -11,5 +11,5 @@ Login to your Azure portal and crete AKS cluster, navigate to Kubernetes service
 
 ![Create cluster k8](./images/1.png "")
 
-![Create cluster k8](/.images/2.png "Create cluster ")
+![Create cluster k8](./images/2.png "Create cluster ")
 
