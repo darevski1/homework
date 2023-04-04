@@ -54,6 +54,7 @@ Now let`s deploy the first pod imperative approach.
 
 Now we can check for active pods. run command **kubectl get pods**
 
+    kubectl get pods*
 
 ![Create cluster k8](./images/9.png "Create cluster ")
 
@@ -63,6 +64,21 @@ Now we can see logs from the pod we created in powershell type
 
 ![Create cluster k8](./images/10.png "Create cluster ")
 
+To view the resources consumption **kubectl top pod nginx**
 
+    kubectl top pod nginx
 
+![Create cluster k8](./images/11.png "Create cluster ")
+
+To see any scheduled pods run:
+    
+    kubectl get pods -o wide
+
+![Create cluster k8](./images/12.png "Create cluster ")
+
+More detailed info about run **kubectl describe pod nginx**
+
+    kubectl describe pod nginx
+
+![Create cluster k8](./images/13.png "Create cluster ")
 
