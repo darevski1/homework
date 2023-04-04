@@ -13,3 +13,26 @@ Login to your Azure portal and crete AKS cluster, navigate to Kubernetes service
 
 ![Create cluster k8](./images/2.png "Create cluster ")
 
+![Create cluster k8](./images/3.png "Create cluster ")
+
+When we created the clusted we can connect to the cluster, click Connect new windows will popup on the right side of the screen there we have details how to connect to our cluster
+
+![Create cluster k8](./images/5.png "Create cluster ")
+
+
+Next open PowerShell and Run the following commands.
+
+    az account set --subscription df86697d-88bc-4474-899b-64b5dfd1d8cf
+    az aks get-credentials --resource-group rgLearn --name mkoAKScluster
+
+
+![Create cluster k8](./images/4.png "Create cluster ")
+
+
+
+
+
+
+
+
+
