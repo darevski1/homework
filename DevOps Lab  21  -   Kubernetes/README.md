@@ -9,7 +9,7 @@ Exercise: PodsPods are the smallest, most basic deployable objects in Kubernetes
 Login to your Azure portal and crete AKS cluster, navigate to Kubernetes services / Create Cluster
 
 
-![Create cluster k8](/images/1.png "")
+![Create cluster k8](./images/1.png "")
 
-![Create cluster k8](/images/2.png "Create cluster ")
+![Create cluster k8](/.images/2.png "Create cluster ")
 
