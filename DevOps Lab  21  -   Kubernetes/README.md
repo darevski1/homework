@@ -29,9 +29,39 @@ Next open PowerShell and Run the following commands.
 ![Create cluster k8](./images/4.png "Create cluster ")
 
 
+check for active pods run command
+
+**kubectl get pods**
 
 
+![Create cluster k8](./images/6.png "Create cluster ")
+We dont see any active pods
 
+Now check all namespaces. Run .
+    
+**kubectl get pods –all-namespace**
+
+![Create cluster k8](./images/7.png "Create cluster ")
+
+How many pods do you see? Who deployed these pods? Why are they deployed? 
+
+Now let`s deploy the first pod imperative approach. 
+
+    kubectl run nginx --image=nginx
+
+
+![Create cluster k8](./images/8.png "Create cluster ")
+
+Now we can check for active pods. run command **kubectl get pods**
+
+
+![Create cluster k8](./images/9.png "Create cluster ")
+
+Now we can see logs from the pod we created in powershell type
+
+    kubectl ngnix logs
+
+![Create cluster k8](./images/10.png "Create cluster ")
 
 
 
