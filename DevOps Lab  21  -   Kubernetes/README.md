@@ -70,7 +70,7 @@ To view the resources consumption **kubectl top pod nginx**
 
 ![Create cluster k8](./images/11.png "Create cluster ")
 
-To see any scheduled pods run:
+You can check the status of the nodes and list all pods of the kube-system namespace as follows:
     
     kubectl get pods -o wide
 
@@ -81,4 +81,65 @@ More detailed info about run **kubectl describe pod nginx**
     kubectl describe pod nginx
 
 ![Create cluster k8](./images/13.png "Create cluster ")
+
+
+To delete the pod that i created run **kubectl delete pod nginx**
+
+    kubectl delete pods nginx
+
+![Create cluster k8](./images/14png "Create cluster ")
+
+
+Let’s find the image used on one of the corednspods under the kube-system namespace
+
+    kubectl get pods --namespace kube-system
+![Create cluster k8](./images/15.png "Create cluster ")
+
+
+
+Once again list all pods under all namespaces.
+
+    kubectl get pods --all-namespaces
+
+
+Note one of the coredns pods. Now run kubectl describe pod <coredns-name> -n kube-system. Replace the <coredns-name> place holder with noted name.
+
+    kubectl describe pod coredns-59b6bf8b4f-dgrg2  --namespace kube-system
+
+### Practice2: Working with pod manifest files
+
+Now it is time to deploy pod using manifest file (declarative approach). Copy the following code block on your local computer in a file called redis.yaml:
+
+Connect to your cluster, and upload the file that you created redis.yaml and runn **kubectl create -f redis.yaml** fix the erros that you got in redis.yaml and run again the same command.
+
+![Create cluster k8](./images/16.png "Create cluster ")
+
+        apiVersion: v1
+        kind: Pod
+        metadata:
+        name: static-web
+        labels:
+            role: myrole
+        spec:
+        containers:
+            - name: redis
+            image: redis123
+
+
+The pod is not running
+![Create cluster k8](./images/17.png "Create cluster ")
+
+Check the events associated with this pod. Run the kubectl describe pod static-web command. What are the events showing? Why your pod is not running?
+we get following error
+***pull access denied, repository does not exist or may require authorization: server message: insufficient_scope: authorization failed***
+
+
+![Create cluster k8](./images/18.png "Create cluster ")
+
+Find the correct image (check the Docker hub page) and correct it in the manifest.Locate the image information and put the correct image name. Redeploy the pod (fist run kubectl delete pod static-web to delete the pod, then run kubectl create once again).
+
+Fix the erros in redis.yaml file upload and run again **kubectl create -f redis.yaml**
+
+![Create cluster k8](./images/19.png "Create cluster ")
+![Create cluster k8](./images/20.png "Create cluster ")
 
