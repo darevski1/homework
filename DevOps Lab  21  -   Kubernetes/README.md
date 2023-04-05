@@ -143,3 +143,36 @@ Fix the erros in redis.yaml file upload and run again **kubectl create -f redis.
 ![Create cluster k8](./images/20.png "Create cluster ")
 ![Create cluster k8](./images/21.png "Create cluster ")
 
+Now you can delete the pod. Try to delete it using the kubectl delete –f redis.yaml.
+
+    kubectl delete –f redis.yaml.
+
+Your next task is to create and test nginx pod definition. Your definition should use the nginx official image, should use label named app with valuefrontend  and should publish port 80. Make sure you complete this task because we will use this template in our next Labs. Your nginx pod should be running without any issues.
+
+![Create cluster k8](./images/22.png "Create cluster ")
+
+
+
+### Practice3: Multi-container pods
+
+Once finished you can try to create multi-container pod definition. Your multi-container pod should use redis and nginx containers with port 6379 and 80 published respectively. Label name should be app with value web.
+
+Note that in reality there is no sense to put the redis and nginx under the same pod but it can be done for the purpose of learning.
+
+![Create cluster k8](./images/23.png "Create cluster ")
+
+    kubectl create -f nginx.yaml  
+
+![Create cluster k8](./images/24.png "Create cluster ")
+
+Verify deployments
+![Create cluster k8](./images/25.png "Create cluster ")
+![Create cluster k8](./images/26.png "Create cluster ")
+
+Delete all the pods under the default namespace. 
+Don’t delete any of the manifest files you have created so far.
+
+### Practice4: Probes
+
+First we will create and test liveness probe with exec test. 
+Create a file named probes_exec.yaml with following content:
