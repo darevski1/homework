@@ -140,6 +140,6 @@ Find the correct image (check the Docker hub page) and correct it in the manifes
 
 Fix the erros in redis.yaml file upload and run again **kubectl create -f redis.yaml**
 
-![Create cluster k8](./images/19.png "Create cluster ")
 ![Create cluster k8](./images/20.png "Create cluster ")
+![Create cluster k8](./images/21.png "Create cluster ")
 
