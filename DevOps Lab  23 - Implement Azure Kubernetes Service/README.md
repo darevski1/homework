@@ -18,3 +18,10 @@ Task 4: Scale containerized workloads in the Azure Kubernetes service cluster
 ![](./images/1.png)
 
 Exercise 1
+First login to you azure aacount and open **PowerShell**
+
+From the Cloud Shell pane, run the following to register the Microsoft.Kubernetes and Microsoft.KubernetesConfiguration resource providers.
+
+    Register-AzResourceProvider -ProviderNamespace Microsoft.Kubernetes
+
+    Register-AzResourceProvider -ProviderNamespace Microsoft.KubernetesConfiguration
