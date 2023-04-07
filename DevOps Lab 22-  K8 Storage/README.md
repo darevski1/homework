@@ -155,4 +155,47 @@ following content:
     kubectl describe pod mypod
 
 
+## Practice 3: Provisioning Azure file storage using Storage Classes
+
+2. Check if any pods run under the default namespace if so delete everything under the default namespace.
+3. Now we will provision file storage using the definition of storage classes. Create a file named azure-file-sc.yaml
+and copy in the following example manifest:
+
 ![az group create](./images/21.png "k8")
+
+![az group create](./images/22.png "k8")
+
+    kubectl apply -f azure-file-sc.yaml
+
+![az group create](./images/23.png "k8")
+
+Now we will create the PVC that will consume the storage class defined previously. Create a file named azure-
+file-pvc.yaml and copy in the following YAML
+
+![az group create](./images/24.png "k8")
+
+
+    kubectl apply -f azure-file-pvc.yaml
+
+![az group create](./images/25.png "k8")
+
+Once completed, the file share will be created. A Kubernetes secret is also created that includes connection
+information and credentials. You can use the kubectl get pvc my-azurefile command to view the status of the
+PVC.
+
+    kubectl get pvc my-azurefile
+
+![az group create](./images/26.png "k8")
+
+
+![az group create](./images/28.png "k8")
+
+![az group create](./images/27.png "k8")
+
+
+9. Create the pod with kubectl apply -f azure-pvc-files.yaml .
+10. Do a describe on the pod and check the volumes mounted.
+11. Delete everything created under this practice including the storage class.
+
+
+## Practice 4: Direct provisioning of Azure Disk storage
