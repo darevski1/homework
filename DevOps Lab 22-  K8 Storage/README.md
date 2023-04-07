@@ -87,3 +87,72 @@ Check if secret was created.
     Run kubectl get secret -A.
 
 ![az group create](./images/9.png "k8")
+
+After we created secret we can create the yaml file **azure-files-pod.yaml.**
+
+![az group create](./images/11.png "k8")
+
+Upload newly created file and run to create new pod:
+
+    kubectl apply -f azure-files-pod.yaml. 
+
+![az group create](./images/10.png "k8")
+
+
+You can use kubectl describe pod mypod to verify the share is mounted successfully.
+
+![az group create](./images/12.png "k8")
+
+## Practice 2: Provisioning Azure File storage using PVs and PVCs
+
+1. Login to Azure and connect to your AKS cluster.
+2. Check if any pods run under the default namespace if so delete everything under the default namespace.
+3. Now we will provision Azure files storage to a pod using PV and PVC.
+4. Create a azurefile-mount-options-pv.yaml file with a PersistentVolume like this:
+
+Lets create new zurefile-mount-options-pv.yaml PersistentVolume and upload 
+
+
+![az group create](./images/14.png "k8")
+
+
+    kubectl apply -f azurefile-mount-options-pv.yaml 
+
+
+![az group create](./images/15.png "k8")
+
+
+5. Note the access mode. Can you use other mode with Azure files?
+6. Now create a azurefile-mount-options-pvc.yaml file with a PersistentVolumeClaim that uses the
+PersistentVolume like this:
+
+![az group create](./images/16.png "k8")
+
+    kubectl apply -f azurefile-mount-options-pv.yaml
+
+![az group create](./images/17.png "k8")
+
+Mount the PersistentVolumeClaim
+
+![az group create](./images/18.png "k8")
+
+Verify your PersistentVolumeClaim is created and bound to the PersistentVolume. 
+Run:
+     kubectl get pvc azurefile.
+
+![az group create](./images/19.png "k8")
+
+
+Now we can embed the PVC info inside our pod definition. Create the following file azure-files-pod.yaml with
+following content:
+
+![az group create](./images/20.png "k8")
+
+
+    kubectl apply -f azure-files-pod.yaml.
+
+
+    kubectl describe pod mypod
+
+
+![az group create](./images/21.png "k8")
