@@ -192,6 +192,8 @@ PVC.
 
 ![az group create](./images/27.png "k8")
 
+![az group create](./images/29.png "k8")
+
 
 9. Create the pod with kubectl apply -f azure-pvc-files.yaml .
 10. Do a describe on the pod and check the volumes mounted.
@@ -199,3 +201,80 @@ PVC.
 
 
 ## Practice 4: Direct provisioning of Azure Disk storage
+
+2. Check if any pods run under the default namespace if so delete everything under the default namespace.
+3. In this practice we will directly provision Azure Disk to a pod running inside AKS.
+4. First create the disk in the node resource group. First, get the node resource group name with az aks show --
+resource-group myResourceGroup --name myAKSCluster --query nodeResourceGroup -o tsv .
+5. Now create a disk using:
+
+
+
+    az aks show --resource-group rgLearn --name mkoAKS --query nodeResourceGroup -o tsv
+
+![az group create](./images/29.png "k8")
+
+        az disk create \
+    --resource-group MC_myResourceGroup_myAKSCluster_eastus \
+    --name myAKSDisk \
+    --size-gb 20 \
+    --query id --output tsv
+
+
+![az group create](./images/30.png "k8")
+
+
+Run kubectl apply -f azure-disk-pod.yaml.
+![az group create](./images/31.png "k8")
+
+
+You can use kubectl describe pod mypod to verify the share is mounted successfully. Search for the Volumes section of the output.
+
+    kubectl describe pod mypod 
+
+![az group create](./images/32.png "k8")
+
+Run the following command kubectl exec -it mypod -- bash
+
+Go to /mnt/azure and try create a blank file test.txt file.
+
+Delete everything created by this practice.
+
+
+## Practice 5: Provisioning Azure Disk storage using Storage Classes
+
+
+1. Login to Azure and connect to your AKS cluster.
+2. Check if any pods run under the default namespace if so delete everything under the default namespace.
+3. Now we will provision Azure disk and attach it to a running pod but this time using dynamic provisioning with
+storage classes. List the available storage classes, run kubectl get sc.
+4. Examine the output. Each AKS cluster includes four pre-created storage classes, two of them configured to
+work with Azure disks, default and managed-premium. We will use the managed-premium in our PVC
+definition since it uses premium type of disks.
+5. Now we will create the PVC that will consume the storage class defined previously. Create a file named azure- premium.yaml and copy in the following YAM
+
+6. Create the persistent volume claim with the kubectl apply -f azure-premium.yaml.
+7. Check the status of your PVC.
+8. Now we will create the pod that consumes the PVC. Create a file named azure-pvc-disk.yaml, and copy in the following YAML. Make sure that the claimName matches the PVC created in the last step:
+
+List the available storage classes, run kubectl get sc.
+
+    kubectl get sc
+
+![az group create](./images/33.png "k8")
+
+now create new file named azure-premium.yaml
+    
+    kubectl apply -f azure-premium.yaml 
+
+![az group create](./images/34.png "k8")
+
+Now we will create the pod that consumes the PVC. Create a file named azure-pvc-disk.yaml, and copy in the following YAML. Make sure that the claimName matches the PVC created in the last step:
+
+azure-pvc-disk.yaml
+
+![az group create](./images/35.png "k8")
+
+9. Create the pod with kubectl apply -f azure-pvc-disk.yaml .
+10. Do a describe on the pod and check the volumes mounted.
+11. Delete everything created under this practice including the storage class.

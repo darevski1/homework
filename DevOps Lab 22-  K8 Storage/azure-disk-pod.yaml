@@ -1,0 +1,24 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: mypod
+spec:
+  containers:
+  - image: mcr.microsoft.com/oss/nginx/nginx:1.15.5-alpine
+    name: mypod
+    resources:
+      requests:
+        cpu: 100m
+        memory: 128Mi
+      limits:
+        cpu: 250m
+        memory: 256Mi
+    volumeMounts:
+    - mountPath: "/mnt/azure"
+      name: azure
+  volumes:
+    - name: azure
+      azureDisk:
+        kind: Managed
+        diskName: pvcRestored
+        diskURI: /subscriptions/df86697d-88bc-4474-899b-64b5dfd1d8cf/resourceGroups/MC_rgLearn_mkoAKS_westeurope/providers/Microsoft.Compute/disks/myAKSDisk
