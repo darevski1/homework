@@ -15,6 +15,6 @@ Task 3: Deploy pods into the Azure Kubernetes Service cluster
 
 Task 4: Scale containerized workloads in the Azure Kubernetes service cluster
 
-!(./images/1.png)
+![](./images/1.png)
 
 Exercise 1
