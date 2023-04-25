@@ -10,17 +10,22 @@ Create workflow.yml file with the folowing content. Ad Commit directly to the **
     on:
     push:
         branches: [ "main" ]
+    pull_request:
+        branches: [ "main" ]
 
     jobs:
     laravel-tests:
+
         runs-on: ubuntu-latest
 
         steps:
         - uses: actions/checkout@v3
         - name: Copy .env
         run: php -r "file_exists('.env') || copy('.env.example', '.env');"
+        - name: Update Composer
+        run: composer update
         - name: Install Dependencies
-        run: composer install -q --no-ansi --no-interaction --no-scripts --no-progress --prefer-dist
+        run: composer install
         - name: Generate key
         run: php artisan key:generate
         - name: Directory Permissions
