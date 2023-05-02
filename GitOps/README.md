@@ -19,6 +19,25 @@ Where to deploy to? Select harness hosted and click connect to cluster.
 Hext deploy the ans sync the application
 ![Open powershell ](images/18.png)
 
+Enable sync policy under **App Details**
+
+![Open powershell ](images/115.png)
+
+
+![Open powershell ](images/116.png)
+
+![Open powershell ](images/117.png)
+
+![Open powershell ](images/118.png)
+
+![Open powershell ](images/119.png)
+
+![Open powershell ](images/120.png)
+
+
+
+
+
 
 
 
