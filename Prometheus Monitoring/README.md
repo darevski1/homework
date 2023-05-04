@@ -62,7 +62,7 @@ Let`s create new file called **prometheus-deployment.yaml** with the following c
 
 ![namespace ](images/b6.png)   
 
-Run the command kubectl ***create  -f prometheus-deployment.yaml***  to create the deplyoment
+Run the command ***kubectl create  -f prometheus-deployment.yaml***  to create the deplyoment
 
     kubectl create  -f prometheus-deployment.yaml 
 
