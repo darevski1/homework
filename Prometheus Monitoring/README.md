@@ -98,48 +98,4 @@ You can open you browser to **http://localhost:8080** and view the dashboard
 ![namespace ](images/d3.png)  
 
 
-### Method 2: Exposing Prometheus as a Service [NodePort & LoadBalancer]
-
-To access the Prometheus dashboard over a IP or a DNS name, you need to expose it as a Kubernetes service.
-
-#### Step 1: Create a file named **prometheus-service.yaml** and copy the following contents. We will expose Prometheus on all kubernetes node IP’s on port 30000.
-
-    apiVersion: v1
-    kind: Service
-    metadata:
-    name: prometheus-service
-    namespace: monitoring
-    annotations:
-        prometheus.io/scrape: 'true'
-        prometheus.io/port:   '9090'
-    spec:
-    selector: 
-        app: prometheus-server
-    type: NodePort  
-    ports:
-        - port: 8080
-        targetPort: 9090 
-        nodePort: 30000
-
-#### Step 2: Create the service using the following command.
-
-    kubectl create -f prometheus-service.yaml --namespace=monitoring
-
-
-![namespace ](images/d4.png)  
-
-![namespace ](images/d5.png)  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+ 
