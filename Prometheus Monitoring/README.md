@@ -68,7 +68,7 @@ Run the command ***kubectl create  -f prometheus-deployment.yaml***  to create t
 
 ![namespace ](images/a2.png)   
 
-You can check the created deployment using the following command or you can check also from minikube dashboard.
+You can check the created deployment using the following command or you can check also ***from minikube dashboard.***
 
     kubectl get deployments --namespace=monitoring
 
