@@ -40,7 +40,13 @@ All configurations for Prometheus are part of prometheus.yaml file and all the a
 
 ***prometheus.rules:*** This file contains all the Prometheus alerting rules
 
-Lets create new file config-map.yaml with the followin content  [config-map.yaml](https://raw.githubusercontent.com/bibinwilson/kubernetes-prometheus/master/config-map.yaml)
+Lets create new file config-map.yaml with the following content [config-map.yaml](https://raw.githubusercontent.com/bibinwilson/kubernetes-prometheus/master/config-map.yaml)
+
+
+    kubectl create -f config-map.yaml
+
+
+![namespace ](images/3.png)    
 
 
 
