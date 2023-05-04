@@ -88,7 +88,7 @@ You can check the created deployment using the following command or you can chec
 
 2. execute the following command to start monitoring dashboard - replace with your pod name.
    
-   kubectl port-forward ***prometheus-deployment-954488b65-flglb *** 8080:9090 -n monitoring
+   kubectl port-forward ***prometheus-deployment-954488b65-flglb*** 8080:9090 -n monitoring
 
 ![namespace ](images/d2.png)  
 
